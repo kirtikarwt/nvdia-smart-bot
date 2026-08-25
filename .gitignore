@@ -1,0 +1,36 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Environment files and secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.jwk
+
+# Chroma/DB and large binary data
+preprocessed_db/
+*.sqlite3
+*.bin
+*.pickle
+
+# Local data or uploads (may contain PII or confidential docs)
+data/
+
+# macOS files
+.DS_Store
+
+# Notebooks
+.ipynb_checkpoints/
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Other
+*.log
